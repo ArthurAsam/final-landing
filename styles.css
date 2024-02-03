@@ -1,0 +1,167 @@
+* {
+    margin: 0; 
+    padding: 0; 
+}
+
+body {
+    min-height: 900px; ; 
+    width: 1000px; 
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #666; 
+}
+
+.header {
+    display: flex; 
+    justify-content: space-between;
+    padding: 20px; 
+    color: black; 
+    font-size: 18px; 
+    cursor: pointer; 
+    background-color: lightskyblue;
+}
+
+.right-links {
+    display: flex; 
+    gap: 0 20px; 
+}
+
+.section-one-wrapper {
+    display: flex; 
+    align-items: flex-start; 
+    padding: 20px;
+    gap: 0 60px;  
+    background-color:royalblue;
+}
+
+.signup {
+    margin-bottom: 20px; 
+}
+
+.input {
+    margin-top: 20px;
+   
+}
+
+input[type='submit']{
+    padding: 10px 25px; 
+    font-size: 15px; 
+    background-color: royalblue;
+    border: 2px solid whitesmoke; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+img {
+    border-radius: 10px; 
+}
+
+.banner {
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: 40px; 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px; 
+}
+
+.stars {
+    display: flex; 
+    color: transparent; 
+    text-shadow: 0 0 0 crimson; 
+    font-size: 20px; 
+    gap: 20px; 
+    margin-right: 20px; 
+}
+
+.content-wrapper {
+    display: flex; 
+}
+
+.container {
+    border-right: 5px solid whitesmoke; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    height: 400px; 
+    gap: 20px; 
+    width: 500px; 
+    background-color:white;
+    background-color:crimson;
+
+     
+}
+
+.box {
+    width: 100px; 
+    height: 100px; 
+    border: 3px solid cornflowerblue; 
+    margin: 0 auto; 
+    border-radius: 5px; 
+}
+
+.info {
+    max-width: 200px; 
+    text-align: center;
+}
+
+.paragraph {
+    max-width: 140px; 
+    padding-top: 10px; 
+}
+
+
+.container-two {
+    width: 500px; 
+    height: 400px; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background-color:crimson;
+}
+
+
+.action {
+    background-color: dodgerblue;
+    margin: 10px; 
+    border-radius: 5px; 
+    display: flex; 
+    padding: 20px; 
+}
+
+.excerpt {
+    width: 300px; 
+    color: whitesmoke
+}
+
+.action input[type='button'] {
+    padding: 0 20px; 
+    cursor: pointer; 
+    background-color: dodgerblue;
+    border: 2px solid whitesmoke; 
+    border-radius: 5px; 
+}
+
+/* links, list, headings */
+
+ul {
+    list-style: none; 
+}
+
+a {
+    text-decoration: none; 
+    color: black; 
+}
+
+h3 {
+    font-size: 30px; 
+    letter-spacing: 2px; 
+}
+
+.footer {
+    text-align: center; 
+    flex: 1; 
+    background-color:lightslategray;
+}
